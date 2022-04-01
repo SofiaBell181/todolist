@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0a0905;
+    font-family: 'Inconsolata', monospace;
+}
+
+#main {
+    background: url(https://images.unsplash.com/photo-1586202690180-1967f682ef1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1944&q=80);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+h1 {
+    position: fixed;
+    opacity: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    line-height: 1.6em;
+    letter-spacing: .1em;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.inputField {
+    padding: 7px;
+    width: 50%;
+    border: none;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 15px;
+    border: none;
+    background: rgb(154,35,64);
+    background: linear-gradient(85deg, rgba(154,35,64,1) 4%, rgba(80,1,20,1) 77%);
+    color: #fff;
+    font-size: 15px;
+}
+
+.image {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; 
+    color: #fff;
+}
+
+.containerList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.itemStyle {
+    font-size: 20px;
+    color: #ffffff;
+    width: 40%;
+    background: linear-gradient(85deg, rgba(154,35,64,1) 4%, rgba(80,1,20,1) 77%);
+    padding: 10px;
+    text-align: left;
+    margin-top: 5px;
+    font-weight: 300;
+    overflow-wrap: break-word;
+}
+
+
+.itemStyleCompled {
+    background: rgb(89,22,39);
+    background: linear-gradient(85deg, rgba(89,22,39,1) 4%, rgba(50,6,17,1) 75%);
+    color: black;
+    font-weight: 500;
+    transition: all 2s ease;
+    width: 35%;
+    text-decoration: line-through;
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+    .itemStyle {
+        font-size: 17px;
+    }
+}
+
+
