@@ -115,6 +115,10 @@ h1 {
     .itemStyle {
         width: 60%;
     }
+    
+    .itemStyleCompled {
+        width: 40%;
+    }
 
     .inputField {
         width: 60%;
